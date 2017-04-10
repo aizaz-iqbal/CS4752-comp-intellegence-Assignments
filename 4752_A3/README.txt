@@ -1,4 +1,7 @@
-CS 4752 Assignment 3
-Group: Aizaz Iqbal & Meishang Chen
+CS 4752 Assignment 3 Renforcement learning
 
-Both parts are working and give an answer the same as the solution.
+Execute A3_main.py to test
+Group: Aizaz Iqbal & Meishang Chen 
+
+  Some code provided by course Prof
+
