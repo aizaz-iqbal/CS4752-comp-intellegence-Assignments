@@ -42,9 +42,9 @@ def get_ga_settings(sudoko_size):
     settings.individual_size        = sudoko_size*sudoko_size               # length of an individual
     settings.fitness_function       = eval_sudoku                           # the fitness function of an individual
     settings.population_size        = 100                                   # total size of each population                            
-    settings.elitism_ratio          = 0.3                                   # select top x% of individuals to survive                  
+    settings.elitism_ratio          = 0.2                                   # select top x% of individuals to survive                  
     settings.parent_roulette_ratio  = 0.2                                   # select x% of population as parents via roulette wheel     
-    settings.mutation_rate          = 0.5                                   # mutation rate percentage                                  
+    settings.mutation_rate          = 0.2                                   # mutation rate percentage                                  
     settings.crossover_index        = settings.individual_size // 2         # the index to split parents for recombination              
     return settings
 
